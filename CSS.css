@@ -1,0 +1,145 @@
+body, html {
+    height: 100%;
+    font-family: Malgun Gothic;
+    scroll-behavior: smooth;
+}
+
+.thick {
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 150%;
+    text-shadow: 2px 1px #303030;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner.jpeg");
+    height:60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  font-family: Malgun Gothic;
+  font-size: 130%;
+  position: absolute;
+  text-shadow: 1px 1px grey;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #e5e4e2;
+}
+
+.hero-text a {
+    color: #e5e4e2;
+    text-decoration: none;
+}
+
+.dropbtn {
+  background-color: #303030;
+  font-family: Malgun Gothic;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  font-family: Malgun Gothic;
+  position: absolute;
+  background-color: #585858;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #888888;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #585858;}
+
+
+.navbar a {
+  float: left;
+  font-family: Malgun Gothic;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 17px;
+  text-decoration: none;
+  background-color: #303030;
+}
+
+.projects-button {
+  font-family: Malgun Gothic;
+    font-size: 14px;
+    color: white;
+    border: none;
+    outline: none;
+    background-color: #303030;
+    overflow: hidden;
+}
+
+a.animated-button.thar-one {
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	position: relative;
+	border: none;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+a.animated-button.thar-one:hover {
+	color: #000 !important;
+	background-color: transparent;
+	text-shadow: none;
+}
+a.animated-button.thar-one:hover:before {
+	bottom: 0%;
+	top: auto;
+	height: 100%;
+}
+a.animated-button.thar-one:before {
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 0px;
+	width: 100%;
+	z-index: -1;
+	content: '';
+	color: #000 !important;
+	background: transparent;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+.projects {
+  text-align: center;
+
+}
+
+.hero-image-upenn {
+  background-image: url("upennbanner.JPG");
+  height:50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
