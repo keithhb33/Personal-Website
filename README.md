@@ -1,3 +1,3 @@
-# Portfolio
+# Personal Website
 
-Website viewable at http://www.keithburroughs.org
+Viewable at http://www.keithburroughs.org
